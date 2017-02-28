@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hkn.gwentsoundboard.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+
+    <TableRow
+        android:layout_width="fill_parent">
+        <Button
+            android:text="Legendary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnLegendary"
+            android:onClick="playTroll1"
+            android:longClickable="true" />
+
+        <Button
+            android:text="Ohohhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnOhoh"
+            android:onClick="ohohh" />
+
+        <Button
+            android:text="Human"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnHumanInShop"
+            android:onClick="human"
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Cheap BAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnCheapestBar"
+            android:onClick="playCheap"/>
+
+        <Button
+            android:text="cracky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnCracky"
+            android:onClick="playCracky"/>
+
+        <Button
+            android:text="Customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnCustomer"
+            android:onClick="playCustomer"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Goodest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnGoodest"
+            android:onClick="playGoodest"/>
+
+        <Button
+            android:text="Gwenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnGwenty"
+            android:onClick="playGwenty"/>
+
+        <Button
+            android:text="Mash Bash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnMashBash"
+            android:onClick="playMashBash"/>
+    </TableRow>
+
+
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Warm Still"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnWarmStill"
+            android:onClick="playWarmStill"/>
+
+        <Button
+            android:text="Pretty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnPretty"
+            android:onClick="playPretty"/>
+
+        <Button
+            android:text="Prices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnPrices"
+            android:onClick="playPrices"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Burny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnBurny"
+            android:onClick="playBurny"/>
+
+        <Button
+            android:text="big heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnBigheart"
+            android:onClick="playBigheart"/>
+
+        <Button
+            android:text="to all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnDoAll"
+            android:onClick="playDoAll"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Come Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnComeBack"
+            android:onClick="playComeBack"/>
+
+        <Button
+            android:text="Humanlike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnHumanlike"
+            android:onClick="playHumanlike"/>
+
+        <Button
+            android:text="WackBang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnWackBang"
+            android:onClick="playWackBang"/>
+    </TableRow>
+
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="Yup yup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnYupYup"
+            android:onClick="playYupYup"/>
+
+        <Button
+            android:text="More gwent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnMoreGwent"
+            android:onClick="playMoreGwent"/>
+
+        <Button
+            android:text="no rush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnNoRush"
+            android:onClick="playNoRush"/>
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnWelcome"
+            android:onClick="playBurny"/>
+
+        <Button
+            android:text="dumdumda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnDumdumda"
+            android:onClick="playDumdumda"/>
+
+        <Button
+            android:text="goodie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnGoodie"
+            android:onClick="playGoodie"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="10dp">
+
+        <Button
+            android:text="haha boom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnHahaboom"
+            android:onClick="playHahaboom"/>
+
+        <Button
+            android:text="make smash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnMakesmash"
+            android:onClick="playMakesmash"/>
+
+        <Button
+            android:text="more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+
+            android:id="@+id/btnMore"
+            android:onClick="playMore"/>
+    </TableRow>
+
+
+
+
+</TableLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
