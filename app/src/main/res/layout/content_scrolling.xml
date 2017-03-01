@@ -14,19 +14,36 @@
 <TableLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_marginTop="0dp"
+    android:layout_marginTop="15dp"
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
+    android:layout_marginBottom="40dp"
     >
 
     <TableRow
-        android:layout_width="fill_parent">
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/shoopshortbanner"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
         <Button
             android:text="Legendary"
+
+            android:textColorHighlight="@color/colorPrimary"
+
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
 
             android:layout_weight="1"
+
+            android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:background="@drawable/buttonshape"
 
@@ -39,9 +56,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
 
-
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnOhoh"
@@ -54,7 +73,8 @@
             android:layout_weight="1"
 
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnHumanInShop"
@@ -65,7 +85,9 @@
     <TableRow
 
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Cheap BAR"
@@ -73,7 +95,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnCheapestBar"
@@ -85,7 +108,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnCracky"
@@ -97,7 +124,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnCustomer"
@@ -105,7 +133,9 @@
     </TableRow>
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Goodest"
@@ -113,7 +143,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnGoodest"
@@ -125,7 +156,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnGwenty"
@@ -137,8 +172,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnMashBash"
             android:onClick="playMashBash"/>
@@ -147,7 +182,9 @@
 
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Warm Still"
@@ -155,7 +192,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnWarmStill"
@@ -167,8 +205,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnPretty"
             android:onClick="playPretty"/>
@@ -179,15 +220,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnPrices"
             android:onClick="playPrices"/>
     </TableRow>
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Burny"
@@ -195,8 +238,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnBurny"
             android:onClick="playBurny"/>
@@ -207,8 +250,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnBigheart"
             android:onClick="playBigheart"/>
@@ -219,15 +265,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnDoAll"
             android:onClick="playDoAll"/>
     </TableRow>
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Come Back"
@@ -235,8 +283,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnComeBack"
             android:onClick="playComeBack"/>
@@ -247,8 +295,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnHumanlike"
             android:onClick="playHumanlike"/>
@@ -259,8 +310,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnWackBang"
             android:onClick="playWackBang"/>
@@ -268,7 +319,9 @@
 
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="Yup yup"
@@ -276,8 +329,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnYupYup"
             android:onClick="playYupYup"/>
@@ -288,8 +341,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnMoreGwent"
             android:onClick="playMoreGwent"/>
@@ -300,8 +356,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
-            android:background="@drawable/buttonshape"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"            android:background="@drawable/buttonshape"
 
             android:id="@+id/btnNoRush"
             android:onClick="playNoRush"/>
@@ -311,7 +367,9 @@
 
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="welcome"
@@ -319,7 +377,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnWelcome"
@@ -331,7 +390,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnDumdumda"
@@ -343,7 +406,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnGoodie"
@@ -351,7 +415,9 @@
     </TableRow>
 
     <TableRow
-        android:paddingBottom="10dp">
+        android:paddingBottom="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:text="haha boom"
@@ -359,7 +425,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnHahaboom"
@@ -371,7 +438,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnMakesmash"
@@ -383,7 +454,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
-            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:background="@drawable/buttonshape"
 
             android:id="@+id/btnMore"
